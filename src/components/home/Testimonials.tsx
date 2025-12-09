@@ -6,35 +6,35 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "An extraordinary experience from start to finish. The attention to detail at Kennedia Grand Singapore is unmatched. Every staff member made us feel like royalty.",
-    author: "Sarah Mitchell",
-    title: "Travel Editor, Condé Nast",
-    location: "Singapore",
+      "Kennedia Bangalore combines the city's tech-savvy culture with world-class luxury. From the rooftop infinity pool to the personalized service, our family vacation was absolutely perfect. The kids loved the amenities!",
+    author: "Priya & Rajesh Sharma",
+    title: "Family Vacation",
+    location: "Bangalore",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/1648387/pexels-photo-1648387.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
     id: 2,
     quote:
-      "Our wedding at Kennedia Bali was nothing short of magical. The team went above and beyond to make our special day absolutely perfect.",
-    author: "James & Emily Chen",
+      "Our dream wedding came true at Kennedia Mumbai. The ocean view ballroom, impeccable catering, and the wedding planning team made our special day truly magical. Every guest was mesmerized!",
+    author: "Ananya & Vikram Patel",
     title: "Celebrated their wedding",
-    location: "Bali",
+    location: "Mumbai",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/1406031/pexels-photo-1406031.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img/https://www.ptaufiqphotography.com/wp-content/uploads/2024/06/ptaufiq-indian-wedding-rajkot-India-ceremony-couple-portraits.jpg",
   },
   {
     id: 3,
     quote:
-      "The culinary journey at Kennedia Paris is a masterpiece. The Michelin-starred restaurant exceeded all expectations with its innovative French cuisine.",
-    author: "Marco Rossini",
-    title: "Food Critic",
-    location: "Paris",
+      "Celebrating our anniversary at Kennedia Banaras was a spiritual and luxurious experience. The heritage architecture blended with modern comfort, and the Ganga view from our suite was breathtaking. Truly unforgettable!",
+    author: "Kavita & Arjun Kapoor",
+    title: "Anniversary Celebration",
+    location: "Banaras",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxTNpPaxNgmD5CHq4nJ4ZrnYCiV96jTFHUQ&s",
   },
 ];
 

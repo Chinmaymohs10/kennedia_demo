@@ -3,12 +3,13 @@ import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from "luci
 
 const footerLinks = {
   hotels: [
-    { name: "Singapore", href: "/hotels/kennedia-singapore" },
-    { name: "Bali", href: "/hotels/kennedia-bali" },
-    { name: "Paris", href: "/hotels/kennedia-paris" },
-    { name: "Dubai", href: "/hotels/kennedia-dubai" },
-    { name: "New York", href: "/hotels/kennedia-new-york" },
-    { name: "London", href: "/hotels/kennedia-london" },
+    { name: "Bangalore", href: "/hotels/kennedia-bangalore" },
+    { name: "Mumbai", href: "/hotels/kennedia-mumbai" },
+    { name: "Delhi", href: "/hotels/kennedia-delhi" },
+    { name: "Goa", href: "/hotels/kennedia-goa" },
+    { name: "Jaipur", href: "/hotels/kennedia-jaipur" },
+    { name: "Hyderabad", href: "/hotels/kennedia-hyderabad" },
+    { name: "Banaras", href: "/hotels/kennedia-banaras" },
   ],
   experiences: [
     { name: "Fine Dining", href: "/dining" },
