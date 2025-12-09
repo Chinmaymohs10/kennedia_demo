@@ -16,7 +16,6 @@ const Index = () => {
       <LocationSelector />
       <NewsSection />
       <Testimonials />
-      {/* <Newsletter /> */}
       <Footer />
     </main>
   );

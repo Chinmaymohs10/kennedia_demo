@@ -91,7 +91,7 @@ export function Testimonials() {
   }, [current, isAutoplay]);
 
   return (
-    <section className="relative py-12 md:py-20 lg:py-32 overflow-hidden bg-gradient-to-b from-background via-secondary/20 to-background">
+    <section className="relative py-12 md:py-20 lg:py-10 overflow-hidden bg-gradient-to-b from-background via-secondary/20 to-background">
       {/* Header */}
       <div className="container-kennedia mb-8 md:mb-12 lg:mb-16 px-4">
         <motion.div
