@@ -10,7 +10,7 @@ const testimonials = [
     author: "Priya & Rajesh Sharma",
     title: "Family Vacation",
     location: "Bangalore",
-    rating: 5,
+    rating: 4.5,
     image:
       "https://images.pexels.com/photos/1648387/pexels-photo-1648387.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
@@ -32,7 +32,7 @@ const testimonials = [
     author: "Kavita & Arjun Kapoor",
     title: "Anniversary Celebration",
     location: "Banaras",
-    rating: 5,
+    rating: 4.8,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxTNpPaxNgmD5CHq4nJ4ZrnYCiV96jTFHUQ&s",
   },
@@ -165,16 +165,33 @@ export function Testimonials() {
                       <div className="md:col-span-3 p-6 sm:p-8 md:p-10 flex flex-col justify-center order-2">
                         {/* Stars */}
                         <div className="flex gap-1 mb-4 md:mb-6">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <motion.div
-                              key={i}
-                              initial={{ opacity: 0, scale: 0 }}
-                              animate={{ opacity: 1, scale: 1 }}
-                              transition={{ delay: 0.1 + i * 0.05 }}
-                            >
-                              <Star className="w-4 h-4 sm:w-5 sm:h-5 fill-accent text-accent" />
-                            </motion.div>
-                          ))}
+                          {Array.from({ length: 5 }).map((_, i) => {
+                            const rating = testimonials[current].rating;
+                            const isFilled = i < Math.floor(rating);
+                            const isHalf = i === Math.floor(rating) && rating % 1 !== 0;
+                            
+                            return (
+                              <motion.div
+                                key={i}
+                                initial={{ opacity: 0, scale: 0 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{ delay: 0.1 + i * 0.05 }}
+                                className="relative"
+                              >
+                                {isHalf ? (
+                                  <>
+                                    <Star className="w-4 h-4 sm:w-5 sm:h-5 text-accent" />
+                                    <Star 
+                                      className="w-4 h-4 sm:w-5 sm:h-5 fill-accent text-accent absolute top-0 left-0" 
+                                      style={{ clipPath: 'inset(0 50% 0 0)' }}
+                                    />
+                                  </>
+                                ) : (
+                                  <Star className={`w-4 h-4 sm:w-5 sm:h-5 text-accent ${isFilled ? 'fill-accent' : ''}`} />
+                                )}
+                              </motion.div>
+                            );
+                          })}
                         </div>
 
                         {/* Quote */}
