@@ -31,7 +31,7 @@ const testimonials = [
       "Celebrating our anniversary at Kennedia Banaras was a spiritual and luxurious experience. The heritage architecture blended with modern comfort, and the Ganga view from our suite was breathtaking. Truly unforgettable!",
     author: "Kavita & Arjun Kapoor",
     title: "Anniversary Celebration",
-    location: "Banaras",
+    location: "Varanasi",
     rating: 4.8,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxTNpPaxNgmD5CHq4nJ4ZrnYCiV96jTFHUQ&s",
